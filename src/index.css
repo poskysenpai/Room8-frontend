@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Oxygen:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-custom-green {
+    color: #7FDBCA;
+  }
+  
+  .hover\\:text-custom-green:hover {
+    color: #7FDBCA; 
+  }
+  
+  .bg-custom-green {
+    background-color: #7FDBCA; /* For underline color */
+  }
+  
+ 
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  
+  .no-scrollbar {
+      scroll-behavior: smooth;
+      scroll-snap-type: y mandatory;
+  }
+}
+
+  
+  #Path_7587 path {
+    stroke: #131A29;
+    stroke-opacity: 0.5;
+    /* transition: stroke 0.3s ease; */
+  }
+  #Path_7587:hover path {
+    stroke: #7FDBCA;
+    background-color: red;
+  }
